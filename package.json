@@ -1,0 +1,16 @@
+{
+  "name": "http_route_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_NO_WARNINGS=1 nodemon --es-module-specifier-resolution=node ./src/server.js",
+    "start": "node --es-module-specifier-resolution=node ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
